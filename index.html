@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./js/main.js">
+	<link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon">
+	<title>Library by Vadim Dolgiy</title>
+</head>
+
+<body>
+	<header>
+		<div class="header__logo">
+			<h1 class="logo__text">
+				Brooklyn Public Library
+			</h1>
+		</div>
+		<div class="header__nav">
+			<ul class="nav__list">
+				<li class="nav__item"><a href="#about">About</a></li>
+				<li class="nav__item"><a href="#favorites">Favorites</a></li>
+				<li class="nav__item"><a href="#coffe">Coffee shop</a></li>
+				<li class="nav__item"><a href="#contacts">Contacts</a></li>
+				<li class="nav__item"><a href="#card">Library Card</a></li>
+			</ul>
+		</div>
+		<div class="header__profile-icon">
+			<a href=""><img src="./src/svg/icon__profile/icon_profile.svg" alt="Icon Profile"></a>
+		</div>
+		<div class="menu-btn">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+
+		<div class="menu">
+			<nav>
+				<ul>
+					<li class="nav__item-menu"><a href="#about">About</a></li>
+					<li class="nav__item-menu"><a href="#favorites">Favorites</a></li>
+					<li class="nav__item-menu"><a href="#coffe">Coffee shop</a></li>
+					<li class="nav__item-menu"><a href="#contacts">Contacts</a></li>
+					<li class="nav__item-menu"><a href="#card">Library Card</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div id="welcome" class="section__welcome">
+			<div class="welcome__title">
+				<div class="title__text">
+					Welcome<br>
+					to the Brooklyn<br>
+					Library
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div id="about" class="section__about">
+				<p class="about__title title">
+					About
+				</p>
+				<div class="about__hr hr"></div>
+				<p class="about__subtitle subtitle">
+					The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside
+				</p>
+				<div class="about__images">
+					<div class="images__item"><img src="./src/img/items/image-1.png" alt=""></div>
+					<div class="images__item"><img src="./src/img/items/image-2.png" alt=""></div>
+					<div class="images__item"><img src="./src/img/items/image-3.png" alt=""></div>
+				</div>
+				<div class="about__pagination">
+					<div class="pagination__active">
+						<a href="">
+							<div class="active__circle"></div>
+						</a>
+					</div>
+					<div class="pagination__button">
+						<a href="">
+							<div class="button__circle"></div>
+						</a>
+					</div>
+					<div class="pagination__button">
+						<a href="">
+							<div class="button__circle"></div>
+						</a>
+					</div>
+				</div>
+
+			</div>
+			<div id="favorites" class="section__favorites">
+				<p class="favorites__title title">
+					Favorites
+				</p>
+				<div class="about__hr hr"></div>
+				<div class="favorites__menu">
+					<p class="menu__title">Pick favorites of season</p>
+					<div class="menu__radio">
+						<input class="radio__button" name="radio" type="radio" id="button__winter" value="winter">
+						<label for="button__winter">Winter</label>
+						<input class="radio__button" name="radio" type="radio" id="button__spring" value="spring">
+						<label for="button__spring">Spring</label>
+						<input class="radio__button" name="radio" type="radio" id="button__summer" value="summer">
+						<label for="button__summer">Summer</label>
+						<input class="radio__button" name="radio" type="radio" id="button__autumn" value="autumn">
+						<label for="button__autumn">Autumn</label>
+					</div>
+				</div>
+				<div class="favorites__products">
+					<div class="products__item">
+						<div class="item__container">
+							<p class="item__title">Staff Picks</p>
+							<div class="products__hr"></div>
+							<p class="item__name">The Book Eaters</p>
+							<p class="item__author">By Sunyi Dean</p>
+							<p class="item__description">An unusual sci-fi story about a book <br> eater woman who tries
+								desperately to <br> save her dangerous mind-eater son <br> from
+								tradition and certain death. <br> Complete with dysfunctional family <br> values, light
+								Sapphic
+								romance, and a <br> strong, complex
+								protagonist. Not for <br> the faint of heart.</p>
+						</div>
+						<div class="item__buy">
+							<a href="">Buy</a>
+						</div>
+						<img src="./src/img/section-favorites/book-1.png" alt="" class="products__image">
+					</div>
+					<div class="products__item">
+						<div class="item__container">
+							<p class="item__title">Staff Picks</p>
+							<div class="products__hr"></div>
+							<p class="item__name">Cackle</p>
+							<p class="item__author">By Clive Irving</p>
+							<p class="item__description">Are your Halloween movies of choice <br> The Witches of
+								Eastwick and Practical <br> Magic? Look no further than here - <br> where a woman
+								recovering from a
+								<br> breakup moves to a quaint town in <br> upstate New York and befriends a <br>
+								beautiful witch.
+							</p>
+						</div>
+						<div class="item__buy">
+							<a href="">Buy</a>
+						</div>
+						<img src="./src/img/section-favorites/book-2.png" alt="" class="products__image">
+					</div>
+				</div>
+				<div class="favorites__products">
+					<div class="products__item">
+						<div class="item__container">
+							<p class="item__title">Staff Picks</p>
+							<div class="products__hr"></div>
+							<p class="item__name">Dante: Poet of the Secular World</p>
+							<p class="item__author">Erich Auerbach</p>
+							<p class="item__description">Auerbach's engaging book places the <br> 'Comedy' within the
+								tradition of epic, <br> tragedy, and philosophy in general, <br> arguing for Dante's
+								uniqueness as one <br> who raised the individual and his drama <br> of soul into
+								something of divine <br> significance—an inspired introduction to <br> Dante's main
+								themes.</p>
+						</div>
+						<div class="item__buy">
+							<a href="">Buy</a>
+						</div>
+						<img src="./src/img/section-favorites/book-3.png" alt="" class="products__image">
+					</div>
+					<div class="products__item">
+						<div class="item__container">
+							<p class="item__title">Staff Picks</p>
+							<div class="products__hr"></div>
+							<p class="item__name">The Last Queen</p>
+							<p class="item__author">By Rachel Harrison</p>
+							<p class="item__description">A timely and revelatory new <br> biography of Queen Elizabeth
+								(and her <br> family) exploring how the Windsors <br> have evolved and thrived as the
+								<br> modern world has changed around <br> them.
+							</p>
+						</div>
+						<a href="">
+							<div class="item__own">
+								<p>Own</p>
+							</div>
+						</a>
+						<img src="./src/img/section-favorites/book-4.png" alt="" class="products__image">
+					</div>
+				</div>
+			</div>
+			<div id="coffe" class="section__coffe-shop">
+				<p class="coffe-shop__title title">Coffe Shop</p>
+				<div class="coffe-shop__hr hr"></div>
+				<p class="coffe-shop__subtitle">In our library, we have of cozy coffee shop, welcoming in customers
+					with
+					frothy cappuccinos and friendly conversation.
+					you can get a favorite book and read in coffee shop. Our barista to cook you best coffee, and
+					also
+					you can try desserts
+					from bakery.</p>
+				<div class="coffe-shop__menu">
+					<div class="menu__coffe">
+						<p class="coffe__title">Coffee & Tea</p>
+						<div class="coffe__info-left">
+							<div class="info__name">Cold Brew Coffee</div>
+							<div class="info__hr"></div>
+							<div class="info__price">$3</div>
+						</div>
+						<div class="coffe__info-left">
+							<div class="info__name">French Press Pot</div>
+							<div class="info__hr"></div>
+							<div class="info__price">$5</div>
+						</div>
+						<div class="coffe__info-left">
+							<div class="info__name">Espresso</div>
+							<div class="info__hr"></div>
+							<div class="info__price">$2</div>
+						</div>
+						<div class="coffe__info-left">
+							<div class="info__name">Cappuccino</div>
+							<div class="info__hr"></div>
+							<div class="info__price">$4</div>
+						</div>
+						<div class="coffe__info-left">
+							<div class="info__name">Hot tea</div>
+							<div class="info__hr"></div>
+							<div class="info__price">$2</div>
+						</div>
+						<div class="coffe__info-left">
+							<div class="info__name">Cold tea</div>
+							<div class="info__hr"></div>
+							<div class="info__price">$2</div>
+						</div>
+					</div>
+					<div class="menu__desert">
+						<div class="menu__coffe">
+							<p class="coffe__title">Desserts & Cakes</p>
+							<div class="coffe__info-right">
+								<div class="info-right__name">Forest Gateau</div>
+								<div class="info__hr"></div>
+								<div class="info-right__price">$16</div>
+							</div>
+							<div class="coffe__info-right">
+								<div class="info-right__name">Blue Moon</div>
+								<div class="info__hr"></div>
+								<div class="info-right__price">$16</div>
+							</div>
+							<div class="coffe__info-right">
+								<div class="info-right__name">Truffle Cake</div>
+								<div class="info__hr"></div>
+								<div class="info-right__price">$15</div>
+							</div>
+							<div class="coffe__info-right">
+								<div class="info-right__name">Chocolate Cake</div>
+								<div class="info__hr"></div>
+								<div class="info-right__price">$18</div>
+							</div>
+							<div class="coffe__info-right">
+								<div class="info-right__name">Poet’s Dream Cake</div>
+								<div class="info__hr"></div>
+								<div class="info-right__price">$16</div>
+							</div>
+							<div class="coffe__info-right">
+								<div class="info-right__name">Pineapple Cake</div>
+								<div class="info__hr"></div>
+								<div class="info-right__price">$14</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="contacts" class="section__contacts">
+				<div class="contacts__title title">
+					<p>Our Contacts</p>
+				</div>
+				<div class="contacts__hr hr"></div>
+				<div class="contacts__block">
+					<div class="block__info">
+						<div class="info__title">
+							<p>For all Library inquiries:</p>
+						</div>
+						<div class="info__number-first">
+							<p>Please call (617) 730-2370</p>
+						</div>
+						<div class="info__number-second">
+							<p>For TTY service, please call (617) 730-2370</p>
+						</div>
+						<div class="info__number-third">
+							<p>Putterham Library: (617) 730-2385</p>
+						</div>
+						<div class="info__staff-title">
+							<p>Senior Staff</p>
+						</div>
+						<div class="info__staff-subtitle">
+							<p>Library Director: <span class="staff-subtitle__name">Amanda Hirst</span></p>
+						</div>
+					</div>
+					<div>
+						<img src="./src/img/map/map.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div id="card" class="section__cards">
+				<div class="cards__title title">Digital Library Cards</div>
+				<div class="cards__hr hr"></div>
+				<div class="cards__block">
+					<div class="block__find">
+						<div class="find__title">
+							<p>Find your Library card</p>
+						</div>
+						<div class="find__check">
+							<div class="check__block">
+								<div class="block__title">
+									<p>Brooklyn Public Library</p>
+								</div>
+								<div class="block__search-form">
+									<input placeholder="Reader's name" class="search-form__txt" type="text">
+								</div>
+								<div class="block__search-form">
+									<input placeholder="Card number" class="search-form__txt" type="text">
+								</div>
+							</div>
+							<div class="block__item">
+								<div class="item__buy item__btn">
+									<a href="">Check the card</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="block__get">
+						<div class="get__title">
+							<p>Get a reader card</p>
+						</div>
+						<div class="get__subtitle">
+							<p>You will be able to see a reader card after <br> logging into account or you can
+								register
+								a
+								new <br> account</p>
+						</div>
+						<div class="get__buttons">
+							<div class="buttons__sign-up item__buy"><a href="">Sign Up</a></div>
+							<div class="buttons__log-in item__buy"><a href="">Log in</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="footer__info-up">
+				<div class="info-up__adress">
+					<p>286 Cadman Plaza, New York, <br> NY 11238, United States</p>
+				</div>
+				<div class="info-up__time">
+					<p>Mon - Fri <br>
+						08:00 am - 07:00 pm</p>
+				</div>
+			</div>
+			<div class="footer__info-down">
+				<div class="info-down__social">
+					<ul class="down-social__img">
+						<li> <a href=""><img class="cosial__img" src="./src/img/footer/u_twitter-alt.svg" alt=""></a>
+						</li>
+						<li> <a href=""><img class="cosial__img" src="./src/img/footer/u_instagram.svg" alt=""></a></li>
+						<li> <a href=""><img class="cosial__img" src="./src/img/footer/u_facebook-f.svg" alt=""></a>
+						</li>
+					</ul>
+
+				</div>
+				<div class="info-down__time">
+					<p>Sat - Sun <br>
+						10:00 am - 06:00 pm</p>
+				</div>
+			</div>
+			<hr>
+			<div class="footer__info-rss">
+				<p>2023</p>
+				<a href="https://rs.school/js-stage0/">The Rolling Scopes School</a>
+				<p><a href="https://github.com/dolg1y">Dolg1y</a></p>
+			</div>
+		</div>
+	</footer>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
+
+<!-- 
+[x] 1. Переделать radio button
+[x] 2. У блока Desserts & Cakes выравнивание по правому краю
+[x] 3. Сделать при наведении навигацию отображаемой
+[x] 4. Сделать при наведении кнопки отображаемыми
+[] 5. Адаптив 
+[] 6. Разобраться с container в header
+[x] 7. Доделать кнопки
+-->
